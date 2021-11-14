@@ -1,0 +1,10 @@
+fir=list(input())
+x=fir.count("S")
+sec=list(input())
+y=sec.count("S")
+s=""
+pro=y*x
+s=s+"S("*pro
+s+="0"
+s+=")"*pro
+print(s)
